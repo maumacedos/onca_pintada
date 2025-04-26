@@ -1,9 +1,9 @@
 /*
-  Theme Name: Onça Pintada
-  Theme URL: https://maumacedos.github.io/onca_pintada/
-  Author: Mauricio Macedo
+  Theme Name: Regna
+  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
 */
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1221,4 +1221,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.nav-menu .submenu {
+  display: none;
+  position: absolute;
+  top: 100%; /* gruda abaixo */
+  left: 0;
+  background: white;
+  padding: 0;
+  margin: 0;
+  min-width: 180px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
 }
